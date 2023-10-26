@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+/* header */
+
+header{
+    display: flex;
+    background-image: url("../img/fundo-topo.jpg");
+    padding: 10px 0px;
+}
+
+header h1{
+    margin: 0 auto;
+    height: 84px;
+}
+
+/* menu */
+
+nav{
+    text-align: center;
+    padding: 15px 0px;
+    background-color: #BFFF9C;
+    border-radius: 0px 0px 25px 25px;
+    border-right: 0.5px solid #000;
+    border-bottom: 0.5px solid #000;
+    border-left: 0.5px solid #000;
+}
+
+nav li{
+    display: inline;
+    background-image: url(../img/patinha-preta.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-right: 27px;
+    margin-right: 10px;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #529d27;
+}
+
+/* especifico id */
+
+#itemContato{
+    background-image: none;
+    padding-right: 0;
+    margin-right: 0;
+}
